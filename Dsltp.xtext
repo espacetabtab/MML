@@ -18,7 +18,7 @@ CreationModele:
 
 
 enum Method:
-    RF="Random Forest" | regLogi="Logistic"
+    RF="Random Forest" | regLogi="Logistic" | SVM="SVM"
 ;
 
 SetParam:
@@ -26,7 +26,7 @@ SetParam:
 ;
 
 enum ParameterMethod:
-    lambda="lambda"
+    lambda="lambda" | kernel="kernel" | gamma="gamma" | weight="weight" | maxIter = "maximum number of iterations" | maxDepth="maximum depth" | criterion="criterion" | nEstimators="number of estimators in RF"
 ;
 
 Param:
