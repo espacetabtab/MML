@@ -57,3 +57,14 @@ Interaction:
 	c1=Column "*" c2=Column
 ;
 
+Tuning:
+model=STRING Sep "tuning" Sep method=STRING Sep Data=STRING Sep Partition=STRING
+;
+
+Train:
+model=STRING Sep "train" Sep Data=STRING Sep Partition=STRING
+;
+
+Eval:
+model=STRING Sep "eval" Sep Data=STRING Sep Partition=STRING
+;
