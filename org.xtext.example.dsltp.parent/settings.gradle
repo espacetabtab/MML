@@ -1,0 +1,3 @@
+include 'org.xtext.example.dsltp'
+include 'org.xtext.example.dsltp.ide'
+include 'org.xtext.example.dsltp.tests'
